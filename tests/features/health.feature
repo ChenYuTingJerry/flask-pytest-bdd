@@ -5,7 +5,7 @@ Feature: Health Resource
   # One feature can have multiple scenarios
   # The lines immediately after the feature title are just comments
 
-  Scenario: Health Checking
+  Scenario: I want to check the service is alive
     Given health endpoint
     When I send the Get request
     Then I should get a '200' response

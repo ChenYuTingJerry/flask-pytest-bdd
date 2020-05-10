@@ -1,7 +1,7 @@
 from pytest_bdd import scenario, given, when, then
 
 
-@scenario("../features/health.feature", "Health Checking")
+@scenario("../features/health.feature", "I want to check the service is alive")
 def test_health_check():
     pass
 
